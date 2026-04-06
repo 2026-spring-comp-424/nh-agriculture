@@ -1,0 +1,22 @@
+category,metric,value,unit,year,source
+Farm Operations,Number of Farms,3850,farms,2025,USDA NASS
+Farm Operations,Total Acres Operated,420000,acres,2025,USDA NASS
+Farm Operations,Average Farm Size,109,acres per operation,2025,USDA NASS
+Livestock,Cattle and Calves Inventory,28000,head,2026,USDA NASS
+Hay,Harvested Acres,36000,acres,2025,USDA NASS
+Hay,Total Production,62000,tons,2025,USDA NASS
+Hay,Price per Ton,186,dollars,2025,USDA NASS
+Hay,Value of Production,11550000,dollars,2025,USDA NASS
+Hay (Excl Alfalfa),Harvested Acres,31000,acres,2025,USDA NASS
+Hay (Excl Alfalfa),Yield per Acre,1.8,tons per acre,2025,USDA NASS
+Hay (Excl Alfalfa),Value of Production,10080000,dollars,2025,USDA NASS
+Hay (Alfalfa),Harvested Acres,5000,acres,2025,USDA NASS
+Hay (Alfalfa),Yield per Acre,1.2,tons per acre,2025,USDA NASS
+Hay (Alfalfa),Price per Ton,245,dollars,2025,USDA NASS
+Hay (Alfalfa),Value of Production,1470000,dollars,2025,USDA NASS
+Maple Syrup,Yield per Tap,0.292,gallons per tap,2025,USDA NASS
+Maple Syrup,Total Production,152000,gallons,2025,USDA NASS
+Corn,Planted Acres,12000,acres,2025,USDA NASS
+Corn Silage,Harvested Acres,10000,acres,2025,USDA NASS
+Corn Silage,Yield per Acre,17,tons per acre,2025,USDA NASS
+Corn Silage,Total Production,170000,tons,2025,USDA NASS
