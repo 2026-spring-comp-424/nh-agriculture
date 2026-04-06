@@ -9,16 +9,15 @@ Data Source: USDA NASS 2025
 # COMP 424 - Spring 2026
 
 import pandas as pd
-import matplotlib.pyplot as  plt
+import matplotlib.pyplot as plt
 
-# Variables 
-state = "New Hampshire"
-total_farms = 3850
-total_acres = 420000
-avg_farm_size = 109
-maple_syrup = 152000
-divider = "============================="
-
+# --- Variables ---
+STATE = "New Hampshire"
+TOTAL_FARMS = 3850
+TOTAL_ACRES = 420000
+AVG_FARM_SIZE = 109
+MAPLE_SYRUP = 152000
+DIVIDER = "============================="
 
 data = pd.read_csv("nh_agriculture_data.csv")
 
@@ -26,30 +25,30 @@ data = pd.read_csv("nh_agriculture_data.csv")
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", None)
 
-print("Agriculture in", state)
-print(divider)
-print("Total farms (2025):", total_farms)
-print("Total farmland:", total_acres, "acres")
-print("Average farm size:", avg_farm_size, "acres")
-print("Maple syrup produced:", maple_syrup, "gallons")
+print("Agriculture in", STATE)
+print(DIVIDER)
+print("Total farms (2025):", TOTAL_FARMS)
+print("Total farmland:", TOTAL_ACRES, "acres")
+print("Average farm size:", AVG_FARM_SIZE, "acres")
+print("Maple syrup produced:", MAPLE_SYRUP, "gallons")
 
 # --- Analyze the data ---
-print(divider)
+print(DIVIDER)
 print("Maple Syrup Data:")
 maple_data = data[data["category"] == "Maple Syrup"]
 print(maple_data)
 
-print(divider)
+print(DIVIDER)
 print("Hay:")
 hay_data = data[data["category"] == "Hay"]
 print(hay_data)
 
-print(divider)
+print(DIVIDER)
 print("Value of production - All Categories:")
 all_value = data[data["metric"] == "Value of Production"]
 print(all_value)
 
-print(divider)
+print(DIVIDER)
 print("Total Hay Production Value")
 total_hay_value = all_value["value"].sum()
 print("$", total_hay_value)
